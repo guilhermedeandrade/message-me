@@ -10,6 +10,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="ui small inverted menu">
+      <div class="ui container">
+        <a class="item">
+          Home
+        </a>
+        <a class="item">
+          Messages
+        </a>
+        <div class="right menu">
+          <a class="item">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <div class="ui container">
+      <%= yield %>
+    </div>
   </body>
 </html>
